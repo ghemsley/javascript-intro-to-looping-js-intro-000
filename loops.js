@@ -4,3 +4,17 @@ function forLoop(array) {
   }
   return array
 }
+
+function whileLoop(n) {
+  while (n > 0) {
+    console.log(n)
+    n -= 1
+  }
+  return 'done'
+}
+
+function doWhileLoop(num) {
+  do {
+    console.log('I am run once regardless.')
+  } while (num < 0)
+}
